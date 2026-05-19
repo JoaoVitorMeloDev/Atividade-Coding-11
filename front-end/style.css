@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+    width: 420px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+    color: #1e3a8a;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #374151;
+    line-height: 1.5;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 12px 16px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.btn-principal {
+    background-color: #2563eb;
+}
+
+.btn-principal:hover {
+    background-color: #1d4ed8;
+}
+
+.btn-secundario {
+    background-color: #6b7280;
+}
+
+.btn-secundario:hover {
+    background-color: #4b5563;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#imagemProjeto {
+    margin-top: 20px;
+    width: 100%;
+    display: none;
+    border-radius: 10px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Observatório de Projetos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="card">
+
+        <h1>Projetos Integradores</h1>
+
+        <p>
+            Digite o nome de um projeto:
+        </p>
+
+        <input
+            type="text"
+            id="nomeProjeto"
+            placeholder="Ex: Sistema de Estoque"
+        >
+
+        <div class="botoes">
+
+            <button
+                class="btn-principal"
+                onclick="mostrarProjeto()"
+            >
+                Mostrar
+            </button>
+
+            <button
+                class="btn-secundario"
+                onclick="limparProjeto()"
+            >
+                Limpar
+            </button>
+
+        </div>
+
+        <hr>
+
+        <p id="resultado"></p>
+
+        <img
+            id="imagemProjeto"
+            src="https://upload.wikimedia.org/wikipedia/commons/9/94/Senac_logo.svg"
+        >
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
